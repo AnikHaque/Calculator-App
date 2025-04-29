@@ -34,5 +34,9 @@ function calculate() {
         return;
       }
       break;
+
+    default:
+      document.getElementById("result").innerHTML = "Invalid operation.";
+      return;
   }
 }
