@@ -9,4 +9,7 @@ function calculate() {
     document.getElementById("result").innerHTML = "Please enter valid numbers.";
     return;
   }
+
+  // Perform calculation based on operator
+  var result;
 }
