@@ -14,5 +14,8 @@ function calculate() {
   var result;
 
   switch (operator) {
+    case "add":
+      result = num1 + num2;
+      break;
   }
 }
