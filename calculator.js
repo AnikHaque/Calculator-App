@@ -12,4 +12,7 @@ function calculate() {
 
   // Perform calculation based on operator
   var result;
+
+  switch (operator) {
+  }
 }
