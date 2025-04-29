@@ -39,4 +39,6 @@ function calculate() {
       document.getElementById("result").innerHTML = "Invalid operation.";
       return;
   }
+  // Display result
+  document.getElementById("result").innerHTML = "Result: " + result;
 }
